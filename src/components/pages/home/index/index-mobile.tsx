@@ -13,7 +13,7 @@ export default function IndexMobile() {
         Dunno
       </div>
 
-      <Title className="mb-4">Metas diárias</Title>
+      <Title className="mb-8">Metas diárias</Title>
 
       <div className="flex flex-col gap-3">
         <CardGoals
@@ -42,7 +42,7 @@ export default function IndexMobile() {
         )}
       </div>
 
-      <Title className="mb-4 mt-6">Calendario de metas</Title>
+      <Title className="mb-6 mt-8">Calendario de metas</Title>
 
       <Calendar />
     </div>
